@@ -1,0 +1,27 @@
+{
+  "name": "npm-app",
+  "version": "1.0.0",
+  "description": "simple sample app",
+  "homepage": "https://github.com/agyapongjoseph/npm-app#readme",
+  "bugs": {
+    "url": "https://github.com/agyapongjoseph/npm-app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agyapongjoseph/npm-app.git"
+  },
+  "license": "MIT",
+  "author": "Joseph Okore Agyapong",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.1",
+    "gulp-sass": "^6.0.1"
+  }
+}
